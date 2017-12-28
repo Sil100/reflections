@@ -1,0 +1,22 @@
+
+
+    -> What happens when you initialize a repository? Why do you need to do it?
+
+    When a reposiory is initialized a new file called .git is added into the directory where the 
+    repository was created. From now on the git will track the changes of the files in that directory.
+
+    A repository permits to have a centralized folder where the changes git metadatas related to a 
+    given project are stored.
+
+
+    -> How is the staging area different from the working directory and the repository? What value
+       do you think it offers?
+
+       Staging area is an intermediate space where you can add the files that you want to track. 
+    In the future you can to commit the files you want or revert changes and don't commit some 
+    modifications. You are free to commit only what you want.
+
+       Into the working directory all the project's related files are present. Into the staging area
+     are added only the current modified files. 
+
+       I think that the working directory and the repository are the same. Off course, I can be wrong.
