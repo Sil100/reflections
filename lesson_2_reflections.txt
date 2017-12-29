@@ -30,6 +30,17 @@
      and choose the files that are logically related and commit them together with a meaningfull 
      comment. In the next step I can make another commit for another logical change and so on.
 
+     -> What are some situations when branches would be helpful in keeping your history organized? 
+        How would branches help?
+
+        I think that branches help when an experimental feature is devolped. We can work on that feature
+     whithout any fear that our changes can break the original code.
+
+        There can be situations when we want to make documentation that is relevant only for some users
+     (in different languages for example) and we don't want to add that documentation in the main branch.
+ 
+        If we have code from another source and want to test that code with our code we cand merge our 
+     code with that code into a different branch. 
 
 
 
