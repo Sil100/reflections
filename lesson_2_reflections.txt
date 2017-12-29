@@ -28,7 +28,7 @@
        I can use the staging area to add files that will be commited latter. When I want to commit 
      changes I use the git status command to see all the files that are already in the staging area
      and choose the files that are logically related and commit them together with a meaningfull 
-     comment. In the next step a can make another commit for another logical change.
+     comment. In the next step I can make another commit for another logical change and so on.
 
 
 
