@@ -20,3 +20,22 @@
      are added only the current modified files. 
 
        I think that the working directory and the repository are the same. Off course, I can be wrong.
+
+ 
+ 
+     -> How can you use the staging area to make sure you have one commit per logical change?
+
+       I can use the staging area to add files that will be commited latter. When I want to commit 
+     changes I use the git status command to see all the files that are already in the staging area
+     and choose the files that are logically related and commit them together with a meaningfull 
+     comment. In the next step a can make another commit for another logical change.
+
+
+
+
+
+
+
+
+
+
