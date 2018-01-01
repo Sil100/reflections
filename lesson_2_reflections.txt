@@ -42,7 +42,12 @@
         If we have code from another source and want to test that code with our code we cand merge our 
      code with that code into a different branch. 
 
+     
+     -> How do the diagrams help you visualize the branch stucture?
 
+       A diagram can help you to visualize the branch structure allowing you to view when a branch was
+     created and what commits it contains. You can view the structure and combine the branches as you
+     wish.
 
 
 
