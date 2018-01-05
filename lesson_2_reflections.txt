@@ -42,12 +42,54 @@
         If we have code from another source and want to test that code with our code we cand merge our 
      code with that code into a different branch. 
 
+
+
      
      -> How do the diagrams help you visualize the branch stucture?
 
        A diagram can help you to visualize the branch structure allowing you to view when a branch was
      created and what commits it contains. You can view the structure and combine the branches as you
      wish.
+
+
+
+
+      -> What is the result of merging two branches together? Why do we represent it in the diagram the
+         way we do?
+
+          When to branches are merged the commits of the branch that is NOT checked out are added to the 
+      checked out branch. It is good idea to verify what branch is checked out before a merge is 
+      performed. The resulting branche will contain all the commits of the two merged branches ordered by
+      timestamp of each commit.
+
+          The command for merging two branches is: 
+                    git merge branch1 branch2
+
+          If a branch is not needed anymore (after a merge for example) you can delete it with the 
+      command:
+                    git branch -d branch_name
+
+          In the diagram is shown the branch that are added to the merged one and the commits for each 
+      branch.
+
+           In order to view the differences between a commit and a parent commit you can use:
+          
+                   git show commit_id
+
+           OBS: This is a useful command when you are not sure what is the parent commit of a given
+                commit (that can be the case when multiple files are merged and is not clear what 
+                commit was added before a given commit and in what file).
+
+
+
+
+
+
+
+
+
+
+
 
 
 
