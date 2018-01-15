@@ -82,6 +82,16 @@
 
 
 
+      -> What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+         When Git try to make a merge and see that there are differences in different parts of the
+      merging files it merge (combine) the two files without any problems. That is a good thing because
+      in this case we can assume that the changes are wanted in a final version. 
+        When the Git cannot make a merge because there are conflicts between the files that will be
+      merged the merge is not made aotomatically because it is not possible to determine which change
+      are good for final version and which is not that good. In this case Git will mark the changes and
+      the creators of the files will modify the final file and that file will be commited.
+  
 
 
 
