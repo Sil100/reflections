@@ -1,1 +1,7 @@
-
+    -> When would you want to use a remote repository rather than keeping all your work local?
+    
+     I think is a good idea to use a remote repository when you want to:
+       - colaborate with other people on a larger project
+       - show your code to a possible employer or friend
+       - need to access some files from different computers
+       - distribute your code to a larger audience
