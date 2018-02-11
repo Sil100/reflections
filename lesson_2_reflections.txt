@@ -13,13 +13,13 @@
        do you think it offers?
 
        Staging area is an intermediate space where you can add the files that you want to track. 
-    In the future you can to commit the files you want or revert changes and don't commit some 
+    In the future you can commit the files you want or revert changes and don't commit some 
     modifications. You are free to commit only what you want.
 
        Into the working directory all the project's related files are present. Into the staging area
      are added only the current modified files. 
 
-       I think that the working directory and the repository are the same. Off course, I can be wrong.
+       I think that the repository contains only the commited files. Off course, I can be wrong.
 
  
  
@@ -33,7 +33,7 @@
      -> What are some situations when branches would be helpful in keeping your history organized? 
         How would branches help?
 
-        I think that branches help when an experimental feature is devolped. We can work on that feature
+        I think that branches help when an experimental feature is developed. We can work on that feature
      whithout any fear that our changes can break the original code.
 
         There can be situations when we want to make documentation that is relevant only for some users
@@ -47,7 +47,7 @@
      
      -> How do the diagrams help you visualize the branch stucture?
 
-       A diagram can help you to visualize the branch structure allowing you to view when a branch was
+       A diagram can help you visualize the branch structure allowing you to view when a branch was
      created and what commits it contains. You can view the structure and combine the branches as you
      wish.
 
@@ -57,7 +57,7 @@
       -> What is the result of merging two branches together? Why do we represent it in the diagram the
          way we do?
 
-          When to branches are merged the commits of the branch that is NOT checked out are added to the 
+          When two branches are merged the commits of the branch that is NOT checked out are added to the 
       checked out branch. It is good idea to verify what branch is checked out before a merge is 
       performed. The resulting branche will contain all the commits of the two merged branches ordered by
       timestamp of each commit.
