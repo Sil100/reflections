@@ -14,3 +14,12 @@
       conflicts.
       I am not sure what "Git automatically stay up-to-date with your remote repository" means. Can
       git automatically pull from a remote repository?
+
+
+
+    -> Describe the differences between forks, clones, and branches. When would you use one 
+       instead of another?
+
+       A fork is like a clone but it keep a reference to the original repository. A branch can starts 
+       from either a clone or a fork. A fork is a copy of a repository of another user in our GitHub 
+       space.
