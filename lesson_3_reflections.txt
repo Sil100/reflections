@@ -5,3 +5,12 @@
        - show your code to a possible employer or friend
        - need to access some files from different computers
        - distribute your code to a larger audience
+
+
+    -> Why might you want to always pull changes manually rather than having Git automatically
+       stay up-to-date with your remote repository?
+
+      You need to be up to date before you push someting new to GitHub. This can help you to avoid
+      conflicts.
+      I am not sure what "Git automatically stay up-to-date with your remote repository" means. Can
+      git automatically pull from a remote repository?
