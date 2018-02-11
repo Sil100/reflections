@@ -3,7 +3,7 @@
    -> How might using version control make you more confident to make changes that could break something?
 
     If I make a change that can be dangerous I can search for modifications in the code that can produce 
-    bugs and and revert the files on a previous version using:
+    bugs and revert the files on a previous version using:
 
       git checkout <number_of_commit_before_problematic_change> 
     
