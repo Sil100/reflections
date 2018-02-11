@@ -23,3 +23,10 @@
        A fork is like a clone but it keep a reference to the original repository. A branch can starts 
        from either a clone or a fork. A fork is a copy of a repository of another user in our GitHub 
        space.
+
+
+ 
+    -> What is the benefit of having a copy of the last known state of the remote stored locally?
+
+      If you have a copy of the last known stat of the remote stored locally you can modify that 
+      copy and avoid conflicts that may appear if tha local copy is different than the remote copy.
