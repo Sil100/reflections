@@ -30,3 +30,23 @@
 
       If you have a copy of the last known stat of the remote stored locally you can modify that 
       copy and avoid conflicts that may appear if tha local copy is different than the remote copy.
+
+
+
+
+    -> How would you collaborate without using Git or GitHub? What would be easier, 
+       and what would be harder?
+
+      Without Git or GitHub is not easy to colaborate. Of corse it is possible to use another 
+      colaborative tool like svn, mail messages, google docs but is not easy and effective.
+      With Git it is really easy. A colaborator can see your code and colaborate if you want
+      to allow him to do so. A history of modification is keep up to date by git and is 
+      something is not correct you can roll back changes.
+
+
+
+    -> When would you want to make changes in a separate branch rather than directly in master? 
+       What benefits does each approach have?
+
+       Well, when you are not sure that the code that you are writing is the final version, when you
+       want to make experiments or want to merge your code into another repository.
